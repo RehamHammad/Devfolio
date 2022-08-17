@@ -1,0 +1,282 @@
+
+
+header{
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+ background-color:  rgba(0, 0, 0, .5);
+}
+.header-caption h1{
+    color:rgb(255, 255, 255);
+    font-size: 72px;
+    line-height:86.4px;
+    margin:0px 0px 24px;
+}
+.header-caption h2{
+    font-size: 40px;
+    line-height: 60px;
+}
+.header-caption h2::after{
+    content: '';
+    animation-name: typed;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes typed {
+    0%{content: 'v|';} 
+    3%{content: 've|';}
+    9%{content: 'vel|';}
+    12%{content: 'velo|';}
+    15%{content: 'velop|';}
+    18%{content: 'velope|';}
+    21%{content: 'veloper|';}
+    24%{content: 'velpoe|';}
+    27%{content: 'velpo|';}
+    30%{content: 'velp|';}
+    33%{content: 'vel|';}
+    36%{content: 've|';}
+    39%{content: 'v|';}
+}
+.dropdown1:hover .menu1{
+display: block;
+}
+.dropdown2:hover .menu2{
+    display: block;
+    }
+.menu2{
+    left: 100%;
+}
+.nav-link,.navbar-brand{
+    color: #ffff;
+}
+.nav-link li{
+    font-size: 24px;
+    line-height: 28px;
+}
+.navbar-brand {
+    font-size: 28px;
+    line-height: 33px;
+}
+.nav-link{
+    position: relative;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.nav-link{
+    position: relative;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.nav-link::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #ffffff;
+  transition: width 1s;
+}
+.navbar-nav{
+    width: 50%;
+}
+.nav-link:hover:before{
+    width: 90%;
+}
+.about{
+    background-color:rgb(248, 249, 250);
+}
+.line{
+    position: relative;
+}
+.line::after{
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 90px;
+    height: 3px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    margin: 60px 30px 0px;
+}
+.services{background-color:rgb(248, 249, 250);
+}
+.services h2{
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 700;
+    color:rgb(30, 30, 30);
+    margin: 0px 0px 8px;
+}
+.after{position: relative;}
+.after::after{
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    display: flex;
+   justify-content: center;
+   margin-left: 48%;
+   margin-top: 7px;
+}
+.icon-serve{
+    width: 110px;
+    height: 110px;
+    border: 9px solid rgb(16, 128, 255) ;
+    border-radius: 50%;
+    transition: backgrond-color 1s;
+}
+.fa-solid{
+    font-size: 30px;
+}
+.item-serve{
+    background-color: #ffffff;
+    margin: 25px 5px;
+    border-radius: 15px;
+}
+.icon-serve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi{
+    font-size: 40px;
+}
+.item-serve h3{
+    color:rgb(30, 30, 30);
+    font-size: 22.4px;
+    line-height: 26.88px;
+    font-weight: 500;
+    margin:6px 8px;
+    padding: 6.4px 0px ;
+}
+.icon-serve:hover{
+    background-color: rgb(0, 120, 255);
+    border: 9px solid rgb(189, 212, 238);
+}
+.icons{
+    background-image: url(../img/post-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 50px 0px;
+}
+.layer{
+    background-color:rgba(0, 120, 255,.7);
+    padding: 150px 0px;
+
+}
+.icon{
+    width: 90px;
+    height: 90px;
+    border: 9px solid rgb(169, 197, 229) ;
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.portfolo{background-color:rgb(248, 249, 250);
+}
+.portfolo .card-body{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolo h2,.blog h2{
+    color:rgb(30, 30, 30);
+    font-size: 48px;
+    line-height: 57.6px;
+    margin: 0px 0px 8px;
+}
+img{
+     transition: transform .5s;
+}
+.card-img:hover img{
+    transform: scale(1.1);
+}
+
+.slider{
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.layer{
+    background-color:rgba(0, 120, 255,.7);
+    padding: 140px 0px;
+    margin: 50px 0px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.blog{
+    background-color:rgb(248, 249, 250);
+}
+.box img{
+    width:30px;
+    height: 30px;
+}
+.bi-clock{
+    font-size: 20px;
+}
+.blog h2::after{
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    display: flex;
+   justify-content: center;
+   margin-left: 48%;
+   margin-top: 7px;
+}
+.contact button{
+    padding: 10px 35px;
+    border-radius: 30px;
+}
+.contact{
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item ul .bi{
+    color: rgb(0, 120, 255);
+    font-size: 20px;
+}
+.item h2::after{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    display: flex;
+   justify-content: center;
+   margin-left: 48%;
+   margin-top: 7px;
+}
+.layout{
+    background-color:rgba(0, 120, 255,.5);
+   padding: 150px 0px;
+}
+.social i{
+    font-size: 30px;
+    width: 60px ;
+    height: 60px;
+    border-radius:50% ;
+    border: 4px solid rgb(0, 120, 255) ;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.social li:hover{
+    background-color:rgb(0, 120, 255) ;
+    border: 4px solid rgb(166, 198, 234) ;
+    color: #ffffff;
+
+}
